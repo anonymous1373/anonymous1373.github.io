@@ -221,6 +221,23 @@ The following images show a comparison between our DM-SR results and bicubic ups
     </tr>
 </table>
 
+			<table style="width:100%; text-align:center;">
+  <tr>
+    <td>
+      <div align="center" id="slider15" style="display:inline-block; width: 1240px;"></div>
+    </td>
+    </tr>
+</table>
+
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td>
+      <div align="center" id="slider16" style="display:inline-block; width: 1240px;"></div>
+    </td>
+    </tr>
+</table>
+
+	
 <script>
   new juxtapose.JXSlider('#slider1',
     [
@@ -235,28 +252,7 @@ The following images show a comparison between our DM-SR results and bicubic ups
     });
 	</script>
 
-	<table style="width:100%; text-align:center;">
-  <tr>
-    <td>
-      <div align="center" id="slider15" style="display:inline-block; width: 1240px;"></div>
-    </td>
-    </tr>
-</table>
 
-
-<script>
-  new juxtapose.JXSlider('#slider15',
-    [
-      {src: 'static/images/13.png', label: 'Bicubic'},
-      {src: 'static/images/13_1iter.png',label: 'SD-SR'}
-    ],
-    {
-      animate: true,
-      showLabels: true,
-      showCredits: false,
-      makeResponsive: true
-    });
-</script>
 	
 <script>
   new juxtapose.JXSlider('#slider2',
@@ -394,35 +390,11 @@ The following images show a comparison between our DM-SR results and bicubic ups
     });
 </script>
 
-		<table style="width:100%; text-align:center;">
-  <tr>
-    <td>
-      <div align="center" id="slider10_1" style="display:inline-block; width: 1240px;"></div>
-    </td>
-    </tr>
-</table>
-
-
-<script>
-  new juxtapose.JXSlider('#slider10_1',
-    [
-      {src: 'static/images/10.png', label: 'Bicubic'},
-      {src: 'static/images/10_1iter.png',label: 'SD-SR'}
-    ],
-    {
-      animate: true,
-      showLabels: true,
-      showCredits: false,
-      makeResponsive: true
-    });
-</script>
-	
-
 	<script>
   new juxtapose.JXSlider('#slider11',
     [
-      {src: 'static/images/iconic-photos-defined-history-19.jpg', label: 'Bicubic'},
-      {src: 'static/images/iconic-photos-defined-history-19_14k_test.png',label: 'SD-SR'}
+      {src: 'static/images/10.png', label: 'Bicubic'},
+      {src: 'static/images/10_1iter.png',label: 'SD-SR'}
     ],
     {
       animate: true,
@@ -478,6 +450,40 @@ new juxtapose.JXSlider('#slider14',
       makeResponsive: true
     });
 </script>
+
+
+
+
+<script>
+  new juxtapose.JXSlider('#slider15',
+    [
+      {src: 'static/images/13.png', label: 'Bicubic'},
+      {src: 'static/images/13_1iter.png',label: 'SD-SR'}
+    ],
+    {
+      animate: true,
+      showLabels: true,
+      showCredits: false,
+      makeResponsive: true
+    });
+</script>
+
+
+
+<script>
+  new juxtapose.JXSlider('#slider16',
+    [
+      {src: 'static/images/iconic-photos-defined-history-19.jpg', label: 'Bicubic'},
+      {src: 'static/images/iconic-photos-defined-history-19_14k_test.png',label: 'SD-SR'}
+    ],
+    {
+      animate: true,
+      showLabels: true,
+      showCredits: false,
+      makeResponsive: true
+    });
+</script>
+	
 
 
   
