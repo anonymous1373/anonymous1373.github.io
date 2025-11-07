@@ -111,6 +111,13 @@ The following images show a comparison between our results and bicubic upsamplin
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
 <div id="juxtapose" style="width: 30%; max-width: 1300px; margin: auto;"></div>
 
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td>
+      <div align="center" id="slider0" style="display:inline-block; width: 1240px;"></div>
+    </td>
+    </tr>
+</table>
 
 <table style="width:100%; text-align:center;">
   <tr>
@@ -236,6 +243,20 @@ The following images show a comparison between our results and bicubic upsamplin
     </td>
     </tr>
 </table>
+
+<script>
+  new juxtapose.JXSlider('#slider1',
+    [
+      {src: 'static/images/14.jpg', label: 'Bicubic'},
+      {src: 'static/images/14_1iter.png',label: 'ours'}
+    ],
+    {
+      animate: true,
+      showLabels: true,
+      showCredits: false,
+      makeResponsive: true
+    });
+	</script>
 
 	
 <script>
